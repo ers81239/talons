@@ -10,7 +10,7 @@ or more backend identity plugins to handle authentication.
 
 # What is `talons.auth`?
 
-`talons.auth` is a namespace package that contains utilies for
+`talons.auth` is a namespace package that contains utilities for
 constructing identifying and authenticating middleware and plugins
 designed for applications running the Falcon WSGI micro-framework
 for building REST APIs.
