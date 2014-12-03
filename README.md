@@ -211,6 +211,7 @@ def authenticate(identity):
     # Assume that user "records" are stored in Redid in the following format:
     # salt:hashedpass#roles
     # Where roles is a comma-separated list of roles
+    auth_success = False
     user_record = _AUTH_DB.get(user)
     if user_record:
         stored_pass, role_list = user_record.split('#')
